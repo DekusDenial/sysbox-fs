@@ -45,6 +45,7 @@ var DefaultHandlers = []domain.HandlerIface{
 	implementations.ProcSwaps_Handler,                      // /proc/swaps
 	implementations.ProcSys_Handler,                        // /proc/sys
 	implementations.ProcSysFs_Handler,                      // /proc/sys/fs
+	implementations.ProcSysFsBinfmtMisc_Handler,            // /proc/sys/fs/binfmt_misc
 	implementations.ProcSysKernel_Handler,                  // /proc/sys/kernel
 	implementations.ProcSysKernelRandom_Handler,            // /proc/sys/kernel/random
 	implementations.ProcSysKernelYama_Handler,              // /proc/sys/kernel/yama
